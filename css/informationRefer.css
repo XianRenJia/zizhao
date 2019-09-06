@@ -1,0 +1,323 @@
+/*其他地方的最顶部（和首页顶部有不相同），包括logo、标题、登录、关于我们、nav*/
+.header{
+	width:9.6rem;
+	height:3rem;
+	position: relative;
+	background: #5cbbe7;
+	/*渐变颜色设置*/
+	 /*!autoprefixer:off*/
+    /*background: -webkit-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -webkit-gradient(left,#5cbbe7,#5ce6c4);*/
+	/*autoprefixer:on*/
+	/*background: -mos-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -o-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -moz-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: linear-gradient(left,#5cbbe7,#5ce6c4);*/
+}
+/*图标logo*/
+.header_logo{
+	width:2.5rem;
+	position: absolute;
+	top:0;
+	left: -0.4rem;
+}
+/*标题汉字和英文*/
+.header_title{
+	position: absolute;
+	top: 0.3rem;
+	left: 1.7rem;
+	width:7.5rem;
+}
+.header_title h3{
+	font-size: 0.6rem;
+	color:rgba(255,255,255,0.9);
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+}
+.header_title p{
+	font-size: 0.35rem;
+	color:rgba(255,255,255,0.5);
+	letter-spacing: 0.02rem;
+}
+/*登录按钮*/
+.header_register{
+	position: absolute;
+	width:1.25rem;
+	height: 0.5rem;
+	right: 0.3rem;
+	top:0.2rem;
+	color: #fff;
+	font-size: 0.4rem;
+	overflow: hidden;
+	line-height: 0.5rem;
+}
+.header_register img{
+	height:0.45rem;
+	float: right;
+	opacity: 0.85;
+}
+.header_register span{
+	height: 100%;
+	display: inline-block;
+}
+/*关于我们*/
+.header_aboutMe{
+	position: absolute;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	right:1.8rem;
+	top:0.20rem;
+	font-size: 0.4rem;
+}
+/*nav*/
+.header_nav{
+	text-align: center;
+	position: relative;
+	top:2rem;
+}
+.header_nav a{
+	display: inline-block;
+	width:1.8rem;
+	height:0.67rem;
+	background-size: 100% 100%;
+	font-size:0.4rem;
+	text-align: center;
+	line-height: 0.67rem;
+	color:#fff;
+	border-radius:0.3rem ;
+	overflow: hidden;
+}
+.header_nav i{
+	display: inline-block;
+	width:0.15rem;
+	height: 0.15rem;
+	background-color:#fff ;
+	border-radius:50% ;
+	position:relative;
+	top:-0.04rem;
+	left: -0.15rem;
+}
+ /*nav选中状态*/
+.header_nav .selected{
+	background: #fff;
+	color:#5cbbe7;
+}
+.header_nav .selected i{
+	background: #5cbbe7;
+}
+/*综合信息查询的分支查询详情    院校查询*/
+/*条件查询*/
+.allOption{
+	padding:0 0.4rem;
+	overflow: hidden;
+}
+.option_year{
+	height:1rem;
+	line-height: 1rem;
+	border-bottom: 1px dotted #e8e8e8;
+	font-size: 0.36rem;
+	position: relative;
+}
+.option_year b{
+	font-weight: normal;
+	color:#999;
+	float: left;
+	line-height: 1rem;
+	width:1.15rem;
+}
+.option_year span{
+	float: left;
+	color: #66ccff;
+	font-size: 0.40rem;
+	height:1rem;
+	line-height: 1rem;
+	border: 0;
+}
+.option_year i{
+	position: absolute;
+	right: 0.2rem;
+	top:0.55rem;
+ 	width: 0.35rem;
+  	height: 0.35rem;
+ 	border-left: 1px dotted #cccccc;
+  	border-bottom: 1px dotted #cccccc;
+  	-webkit-transform: translate(0,-50%) rotate(-132deg);
+  	transform: translate(0,-50%) rotate(-132deg);
+}
+/*小提示*/
+.hint{
+	margin: 0.4rem 0.4rem;
+	background-color:#66ccff;
+	padding-top:0.2rem;
+	border-radius: 0.3rem;
+	color: #fff;
+}
+.hint_title{	
+	height: 0.9rem;
+	line-height: 0.9rem;
+	padding: 0 0.3rem;
+	overflow: hidden;
+}
+.hint_title img{
+	float: left;
+	height: 0.5rem;
+	margin:0.2rem 0;
+	margin-right: 0.2rem;
+}
+.hint_title span{
+	font-size:0.43rem;
+}
+.hint_details{
+	padding-bottom: 0.4rem;
+	padding-left: 0.8rem;
+}
+.hint_details p{
+	padding:0 0.4rem 0.3rem 0;
+	font-size: 0.36rem;
+	line-height: 0.55rem;
+}
+/*综合评价的详细内容*/
+.academyRefer_details{
+	margin: 0 0.4rem;
+	color:#999;
+	font-size: 0.27rem;
+	border-bottom: 1px solid #ddd;
+}
+/*名字。年份。地区*/
+.academyRefer_details .name{
+
+	font-size: 0.36rem;
+	overflow: hidden;
+}
+.academyRefer_details .name span{
+	color:#990000;
+	font-size: 0.40rem;
+	float: left;
+	width:2rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+.academyRefer_details .name b{
+	font-weight: normal;
+	float: left;
+	width:1.6rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+/*中学学校到大学学校*/
+.academyRefer_details .school{
+	height: 0.7rem;
+	line-height: 0.7rem;
+	overflow: hidden;
+	font-size: 0.36rem;
+	padding-bottom: 0.2rem;
+}
+.academyRefer_details .school span{
+	color: #006699;
+	padding:0 0.1rem;
+	float: left;
+}
+.academyRefer_details .school img{
+	height: 0.4rem;
+	float: left;
+	margin:0.15rem 0;
+}
+/*获得的奖项*/
+.academyRefer_details ul{
+	padding: 0 0.4rem;
+	font-size: 0.36rem;
+}
+.academyRefer_details ul li{
+	list-style: disc;
+	letter-spacing: 1px;
+	padding-bottom: 0.2rem;
+}
+
+/*选择器的弹出选择层*/
+.select{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left:0;
+	display: none;
+}
+/*遮罩层*/
+/*.select .maskLayer{
+	width:100%;
+	min-height:40%;
+	max-height: 100%;
+}*/
+/*选择控件*/
+.select_control{
+	position: fixed;
+	bottom: 0;
+	background-color:#fff ;
+	width: 100%;
+	
+}
+/*控件名称*/
+.select_control_name{
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	border-bottom: 1px dotted #e8e8e8;
+	letter-spacing: 1px;
+}
+.select_control_name h5{
+	font-size: 0.43rem;
+	height: 1rem;
+	line-height: 1rem;
+	color:#ccc;
+	font-weight: normal;
+}
+/*控件内容*/
+.select_control_content{
+	overflow: auto;
+	padding:0.3rem;
+	max-height:7rem;
+}
+.select_control_content span{
+	height: 0.8rem;
+	float: left;
+	line-height: 0.8rem;
+	color:#66ccff;
+	padding:0 0.3rem;
+	border: 1px solid #66ccff;
+	border-radius: 0.4rem;
+	margin:0.2rem;
+	font-size: 0.4rem;
+	cursor: pointer;
+}
+.select_control_content span.hover{
+	color: #fff;
+	background-color: #66ccff;
+	border: 1px solid #66ccff;
+}
+/*确认或取消*/
+.select_control_verify{
+	overflow: hidden;
+	height: 1rem;
+	line-height: 1rem;
+	border-top: 1px dotted #e8e8e8;
+	text-align: center;
+}
+.select_control_verify a{
+	float: left;
+	width: 50%;
+	height: 1rem;
+	line-height:1rem;
+	font-size: 0.43rem;
+	color:#ccc;
+	box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+

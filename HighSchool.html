@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>自招数据助手-高中</title>
+		<meta name=viewport content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/HighSchool.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/HighSchool.js" ></script>
+	</head>
+	<body>
+		<!--浏览器适配   让其在电脑端也能很好共存-->
+	   <div class="browserAdaptive">
+		<!--其他地方的最顶部（和首页顶部有不相同），包括logo、标题、登录、关于我们、nav-->
+		<div class="header">
+			<!--logo-->
+			<img class="header_logo" src="images/logo.png"/>
+			<!--标题汉字和英文-->
+			<div class="header_title">
+				<h3>自招数据助手</h3>
+				<!--<p>Independent Recruitment Assistant</p>-->
+			</div>
+			<!--登录按钮-->
+			<div class="header_register">
+				<span>登录</span>
+				<img src="images/qq.png">
+			</div>
+			<!--关于我们-->
+			<a class="header_aboutMe" href="#">关于我们</a>
+			<!--nav-->
+			<div class="header_nav">
+				<a href="index.html"><i></i>首页</a>
+				<a href="academy.html"><i></i>院校</a>
+				<a href="awardsList.html"><i></i>奖项</a>
+				<a href="HighSchool.html" class="selected"><i></i>高中</a>
+				<a href="informationRefer.html"><i></i>综合</a>
+			</div>
+		</div>
+		<!--综合信息查询的分支查询详情    院校查询-->
+		<div class="academyRefer">
+			<!--灰色的边线-->
+			<div class="border_header"></div>
+			<!--条件查询-->
+			<div class="allOption">
+				<div class="option_year">
+					<b>省市</b>
+					<span type="text" class="select-value">全部省市</span>
+					<i></i>
+				</div>
+				<div class="option_year">
+					<b>高中</b>
+					<span type="text" class="select-value-input">点击输入</span>
+					<i></i>
+				</div>
+			</div>
+			<!--自招奖项详情-->
+			<div class="indexAwards_detailsAll">
+				<div class="indexAwards_details">
+					<p>
+						<span>安徽省定远中学</span>
+						<span>安徽省宿城第一中学</span>
+						<span>安庆市第一中学</span>
+						<span>蚌埠第二中学</span>
+						<span>保定市第二中学</span>
+						<span>保定市第三中学</span>
+						<span>北大附中香山学校</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--高中信息查询页面-->
+		<!--综合信息查询-->
+		<div class="informationRefer">
+			<!--灰色的边线-->
+			<div class="border_header"></div>
+			<!--副标题-->
+			<h2 class="subtitle"><i></i>综合信息查询</h2>
+			  <!--信息查询的分类-->
+			<div class="informationRefer_allDetail">
+				<a>按奖励细分统计降分录取情况</a>
+				<a>院校综合评价信息查询</a>
+				<a>按高中查询综评情况</a>
+				<a>按高校查询综评分布情况</a>
+				<a>院校录取平均分参考</a>
+				<a>学科评估结果查询</a>
+				<a>高校自招录取率</a>
+				<a>综合评价/领军博雅录取率</a>
+				<a>18年姚班名单</a>
+				<a>18年五大学科国家队去向</a>	
+			</div>
+		</div>
+		<!--底部    包括公司名称。用户协议等-->
+		<div class="footer">
+			<!--推荐用户拿红包、关于网站数据、用户协议-->
+			<div>
+				<span><img src="images/red.png" /> 推荐用户拿红包</span>
+				<span>关于网站数据</span>
+				<span>用户协议</span>
+			</div>
+			<p>&copy 自主招生数据助手·Created and Maintained by Xian 2018</p>
+			<p>本站数据来自互联网公开数据，仅供参考</p>
+		</div>
+		<!--选择器的弹出选择层-->
+		<div class="select">
+			<!--遮罩层-->
+			<!--<div class="maskLayer"></div>-->
+			<!--选择控件-->
+			<div class="select_control">
+				<!--控件名称-->
+				<div class="select_control_name">
+					<h5>控件名称</h5>
+				</div>
+				<!--控件内容-->
+				<div class="select_control_content">
+					<span class="hover">2016</span>
+					<span>2017</span>
+					<span>2018</span>
+				</div>
+				<!--确认或取消-->
+				<div class="select_control_verify">
+					<a style="border-right:1px dotted #ddd;">取消</a>
+					<a>确认</a>
+				</div>
+			</div>
+		</div>
+	 </div>
+	</body>
+</html>

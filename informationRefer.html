@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>院校综合评价信息查询</title>
+		<meta name=viewport content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/informationRefer.css" />
+		<script type="text/javascript" src="js/public.js" ></script>
+	</head>
+	<body>
+	<!--浏览器适配   让其在电脑端也能很好共存-->
+	   <div class="browserAdaptive">
+		<!--其他地方的最顶部（和首页顶部有不相同），包括logo、标题、登录、关于我们、nav-->
+		<div class="header">
+			<!--logo-->
+			<img class="header_logo" src="images/logo.png"/>
+			<!--标题汉字和英文-->
+			<div class="header_title">
+				<h3>自招数据助手</h3>
+				<!--<p>Independent Recruitment Assistant</p>-->
+			</div>
+			<!--登录按钮-->
+			<div class="header_register">
+				<span>登录</span>
+				<img src="images/qq.png">
+			</div>
+			<!--关于我们-->
+			<a class="header_aboutMe" href="#">关于我们</a>
+			<!--nav-->
+			<div class="header_nav">
+				<a href="index.html"><i></i>首页</a>
+				<a href="academy.html"><i></i>院校</a>
+				<a href="awardsList.html"><i></i>奖项</a>
+				<a href="HighSchool.html"><i></i>高中</a>
+				<a href="informationRefer.html" class="selected"><i></i>综合</a>
+			</div>
+		</div>
+		<!--综合信息查询的分支查询详情    院校查询-->
+		<div class="academyRefer">
+			<!--灰色的边线-->
+			<div class="border_header"></div>
+			<!--副标题-->
+			<h2 class="subtitle"><i></i>综合信息查询<span> — 院校综合评价信息查询</span></h2>
+			<!--条件查询-->
+			<div class="allOption">
+				<div class="option_year">
+					<b>年份</b>
+					<span type="text" class="select-value">全部年份</span>
+					<i></i>
+				</div>
+				<div class="option_year">
+					<b>省市</b>
+					<span type="text" class="select-value">全部省市</span>
+					<i></i>
+				</div>
+				<div class="option_year">
+					<b>高校</b>
+					<span type="text" class="select-value">全部高校</span>
+					<i></i>
+				</div>
+				<div class="option_year">
+					<b>录取</b>
+					<span type="text" class="select-value">全部</span>
+					<i></i>
+				</div>
+				<div class="option_year">
+					<b>奖项</b>
+					<span type="text" class="select-value">全部</span>
+					<i></i>
+				</div>
+			</div>
+			<!--小提示-->
+			<!--下面的费用说明和录取优惠分值说明都使用的小提示的css-->
+			<div class="hint">
+				<p class="hint_title">
+					<img src="images/biaozhi.png" />
+					<span>小提示</span>
+				</p>
+				<div class="hint_details">
+					<p>1.录取专业是指最终通过综合评价渠道被录取专业</p>
+					<p>2.该栏信息为空，不代表该生未被高校录取，也有可能是专业裸分已够。
+					甚至不少拿了C优惠，最终考了状元的，膜拜膜拜~~
+					</p>
+				</div>
+			</div>
+			 <!--综合评价的详细内容-->
+			<div class="academyRefer_detailsAll">
+				<div class="academyRefer_details">
+					<!--名字。年份。地区-->
+					<div class="name">
+						<span>李祥泽</span>
+						<b>2018年</b>
+						<b>北京市</b>
+					</div>
+					<!--中学学校到大学学校-->
+					<div class="school">
+						<span>北京市第二中学</span>
+						<img src="images/jiantou.png" />
+						<span>清华大学</span>
+						<span>B10</span>
+					</div>
+					<!--获得的奖项-->
+					<ul>
+						<li>第34届全国中学生物理竞赛复赛（省级赛区）二等奖（非公示名单，网络收集）</li>
+						<li>第34届全国中学生物理竞赛复赛（省级赛区）二等奖（非公示名单，网络收集）</li>
+					</ul>
+				</div>
+			</div>
+			<!--费用说明-->
+			<div class="hint" style="background: #ff9999;">
+				<p class="hint_title">
+					<img src="images/cost.png" />
+					<span>费用说明</span>
+				</p>
+				<div class="hint_details">
+					<p>1.免费用户最多可以查看两条数据。想要查看更多数据？您需要付费。付费方式，请加QQ群639154191自招数据助手，找群主或是管理员咨询点击这里给我发消息；
+					</p>
+					<p>2.目前一次性付费150元，可以使用到明年8月底，所有功能哦；你还可以邀请用户购买网站服务，获得20元红包奖励：） 同时被邀请的用户立减20元：）
+					</p>
+				</div>
+			</div>
+			<!--录取优惠分说明-->
+			<div class="hint" style="background: #f2f2f2; color: #999;">
+				<p class="hint_title" style="padding-left:0.5rem ;">
+					<span>录取优惠分值说明</span>
+				</p>
+				<div class="hint_details" style="padding-left:0.5rem;">
+					<p>1.入选考生达到一本批次高校模拟投档线即予以录取的，以"B"标注；也可是"B"+"数字"，
+						表示高校模拟投档线下优惠多少分录取，如B20表示高校模拟投档线下优惠20分录取；
+					</p>
+					<p>2.入选考生达到生源所在省份一本批次录取控制分数线即予以录取的，以"C"标注；也可是"C"+"数字"，
+						表示一本批次录取分数线上多少分录取，如C20表示一本批次录取控制线上20分录取；
+					</p>
+					<p>3.高校对学科特长或创新潜质特别突出的个别优秀考生一本批次录取控制分数线下破格录取的用D标注；
+					</p>
+				</div>
+			</div>
+			<!--没有入围专业说明：-->
+			<div class="hint" style="background: #f2f2f2; color: #999;">
+				<p class="hint_title" style="padding-left:0.5rem ;">
+					<span>没有入围专业说明</span>
+				</p>
+				<div class="hint_details" style="padding-left:0.5rem;">
+					<p>1.部分学校入围时无法确定专业，仅是根据高考成绩划定入围校测的分数线，经过了校测才有录取专业；
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--综合信息查询-->
+		<div class="informationRefer">
+			<!--灰色的边线-->
+			<div class="border_header"></div>
+			<!--副标题-->
+			<h2 class="subtitle"><i></i>综合信息查询</h2>
+			  <!--信息查询的分类-->
+			<div class="informationRefer_allDetail">
+				<a>按奖励细分统计降分录取情况</a>
+				<a>院校综合评价信息查询</a>
+				<a>按高中查询综评情况</a>
+				<a>按高校查询综评分布情况</a>
+				<a>院校录取平均分参考</a>
+				<a>学科评估结果查询</a>
+				<a>高校自招录取率</a>
+				<a>综合评价/领军博雅录取率</a>
+				<a>18年姚班名单</a>
+				<a>18年五大学科国家队去向</a>	
+			</div>
+		</div>
+		<!--底部    包括公司名称。用户协议等-->
+		<div class="footer">
+			<!--推荐用户拿红包、关于网站数据、用户协议-->
+			<div>
+				<span><img src="images/red.png" /> 推荐用户拿红包</span>
+				<span>关于网站数据</span>
+				<span>用户协议</span>
+			</div>
+			<p>&copy 自主招生数据助手·Created and Maintained by Xian 2018</p>
+			<p>本站数据来自互联网公开数据，仅供参考</p>
+		</div>
+		<!--选择器的弹出选择层-->
+		<div class="select">
+			<!--遮罩层-->
+			<!--<div class="maskLayer"></div>-->
+			<!--选择控件-->
+			<div class="select_control">
+				<!--控件名称-->
+				<div class="select_control_name">
+					<h5>控件名称</h5>
+				</div>
+				<!--控件内容-->
+				<div class="select_control_content">
+					<span class="hover">2016</span>
+					<span>2017</span>
+					<span>2018</span>
+				</div>
+				<!--确认或取消-->
+				<div class="select_control_verify">
+					<a style="border-right:1px dotted #ddd;">取消</a>
+					<a>确认</a>
+				</div>
+			</div>
+		</div>
+	 </div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/informationRefer.js" ></script>
+		<script>
+			
+		</script>
+	</body>
+</html>

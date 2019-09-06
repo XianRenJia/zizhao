@@ -1,0 +1,153 @@
+/*其他地方的最顶部（和首页顶部有不相同），包括logo、标题、登录、关于我们、nav*/
+.header{
+	width:9.6rem;
+	height:3rem;
+	position: relative;
+	background: #5cbbe7;
+	/*渐变颜色设置*/
+	 /*!autoprefixer:off*/
+    /*background: -webkit-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -webkit-gradient(left,#5cbbe7,#5ce6c4);*/
+	/*autoprefixer:on*/
+	/*background: -mos-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -o-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: -moz-linear-gradient(left,#5cbbe7,#5ce6c4);
+	background: linear-gradient(left,#5cbbe7,#5ce6c4);*/
+}
+/*图标logo*/
+.header_logo{
+	width:2.5rem;
+	position: absolute;
+	top:0;
+	left: -0.4rem;
+}
+/*标题汉字和英文*/
+.header_title{
+	position: absolute;
+	top: 0.3rem;
+	left: 1.7rem;
+	width:7.5rem;
+}
+.header_title h3{
+	font-size: 0.6rem;
+	color:rgba(255,255,255,0.9);
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+}
+.header_title p{
+	font-size: 0.35rem;
+	color:rgba(255,255,255,0.5);
+	letter-spacing: 0.02rem;
+}
+/*登录按钮*/
+.header_register{
+	position: absolute;
+	width:1.25rem;
+	height: 0.5rem;
+	right: 0.3rem;
+	top:0.2rem;
+	color: #fff;
+	font-size: 0.4rem;
+	overflow: hidden;
+	line-height: 0.5rem;
+}
+.header_register img{
+	height:0.45rem;
+	float: right;
+	opacity: 0.85;
+}
+.header_register span{
+	height: 100%;
+	display: inline-block;
+}
+/*关于我们*/
+.header_aboutMe{
+	position: absolute;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	right:1.8rem;
+	top:0.20rem;
+	font-size: 0.4rem;
+}
+/*nav*/
+.header_nav{
+	text-align: center;
+	position: relative;
+	top:2rem;
+}
+.header_nav a{
+	display: inline-block;
+	width:1.8rem;
+	height:0.67rem;
+	background-size: 100% 100%;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.67rem;
+	color:#fff;
+	border-radius:0.5rem;
+	overflow: hidden;
+}
+.header_nav i{
+	display: inline-block;
+	width:0.15rem;
+	height: 0.15rem;
+	background-color:#fff ;
+	border-radius:50% ;
+	position:relative;
+	top:-0.04rem;
+	left: -0.15rem;
+}
+ /*nav选中状态*/
+.header_nav .selected{
+	background: #fff;
+	color:#5cbbe7;
+}
+.header_nav .selected i{
+	background: #5cbbe7;
+}
+/*985院校*/
+/*因为985院校和211院校的css样式一样所以做一份使用*/
+.universityAll{
+	margin:0 0.4rem;	
+}
+.university{
+	font-size: 0.32rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px dotted #eee;
+	margin-bottom: 0.3rem;
+}
+.university h4{
+	font-weight: normal;
+	color:#999999;
+	letter-spacing: 1px;
+	font-size: 0.40rem;
+}
+.university p{
+	padding: 0.2rem 0;
+	color:#ccc;
+	overflow: hidden;
+}
+.university p span{
+	display: inline-block;
+	width:2.92rem;
+	float: left;
+	overflow:hidden;
+}
+.university p span b{
+	font-weight: normal;
+	color:#999999;
+	font-size: 0.32rem;	
+}
+.university p span i{
+	font-size: 0.32rem;
+	font-style: normal;
+}
+/*下降*/
+.university p span i.decline{
+	color: #f25555;
+}
+/*上升*/
+.university p span i.rise{
+	color: #66ccff;
+}
+

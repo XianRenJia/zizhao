@@ -1,0 +1,164 @@
+*{
+	list-style:none;
+}
+:focus{
+	outline:none ;
+}
+body{	
+	border: 0;
+	list-style:none;
+	height:100%;
+	background: #fff;
+	font-size: 0.16rem;
+	margin: 0;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    margin:0px;
+	padding:0px;
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+input{
+    border:none;
+}
+/*浏览器适配   让其在电脑端也能很好共存*/
+.browserAdaptive{
+	max-width:960px;
+	margin: 0 auto;
+	position: relative;
+}
+/*灰色的边线*/
+.border_header{
+	height: 0.25rem;
+	background: #F2F2F2;
+}
+/*副标题*/
+.subtitle{
+	position: relative;
+	font-size: 0.45rem;
+	height:1.2rem;
+	padding-left: 0.58rem;
+	line-height: 1.2rem;
+	color:#666666;
+	font-weight: normal;
+}
+.subtitle i{
+	position: absolute;
+	width: 0.13rem;
+	height: 0.5rem;
+	background: #66ccff;
+	left: 0.24rem;
+	top:0.35rem;
+}
+/*收缩标题*/
+.shrinkTitle{
+	position: relative;
+	font-size: 0.45rem;
+	height:1.2rem;
+	padding-left: 0.58rem;
+	line-height: 1.2rem;
+	color:#666666;
+	font-weight: normal;
+}
+.shrinkTitle i{
+	position: absolute;
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #6cf;
+	left: 0.24rem;
+	top:0.51rem;
+	border-radius: 50%;
+}
+.shrinkTitle b{
+	position: absolute;
+    right: 0.4rem;
+    top: 0.55rem;
+    width: 0.3rem;
+    height: 0.3rem;
+	border-left: 1px solid #6cf;
+    border-bottom: 1px solid #6cf;
+    -webkit-transform: translate(0,-50%) rotate(-45deg);
+    transform: translate(0,-50%) rotate(-45deg);
+}
+/*收缩后的内容*/
+.shrinkContent{
+	display: none;
+	padding: 0 0.4rem;
+	color:#a7a7a7;
+	line-height: 0.6rem;
+	margin-bottom: 0.2rem;
+}
+.shrinkContent li{
+	padding:0.25rem 0;
+	font-size: 0.36rem;
+	border-bottom: 1px solid #f8f8f8;
+}
+/*综合信息查询*/
+/*信息查询的分类*/
+.informationRefer_allDetail{
+	overflow: hidden;
+	padding: 0 0.6rem;
+	padding-right: 0.1rem;
+	margin-bottom:0.4rem ;
+}
+.informationRefer_allDetail a{
+	float: left;
+	padding:0.27rem 0.4rem;
+	color: #999;
+	font-size: 0.36rem;
+	background-color:#f2f2f2 ;
+	border-left: 1px solid #66ccff;
+	letter-spacing: 0.015rem;
+	margin-bottom: 0.2rem;
+	margin-right: 0.2rem;
+}
+/*底部    包括公司名称。用户协议等*/
+.footer{
+	height: 3.06rem;
+	background-color:#66ccff;
+}
+.footer div{
+	text-align: center;
+	padding-top: 0.4rem;
+}
+.footer div span{
+	display: inline-block;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	color: #fff;
+	font-size: 0.35rem;
+	padding-right: 0.6rem;
+}
+.footer div span img{
+	height:0.7rem;
+	
+	float: left;
+}
+.footer p{
+	text-align: center;
+	margin:0.2rem 0 0.2rem;
+	color:#aedaf3;
+	font-size: 0.30rem;
+	letter-spacing: 0.01rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
